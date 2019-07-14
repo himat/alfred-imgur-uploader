@@ -148,12 +148,12 @@
 				<key>script</key>
 				<string>query=$1
 
-./deps/pngpaste /private/tmp/imgur.png
+img="$(mktemp).png"
+&gt;&amp;2 echo $img
+./deps/pngpaste "${img}" || exit 1 # Exit if pngpaste errored
 
-[ $? == 1 ] &amp;&amp; exit 1 # Exit if pngpaste errored
-
-./deps/imguru /private/tmp/imgur.png
-rm /private/tmp/imgur.png</string>
+./deps/imguru "${img}"
+rm "${img}"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
