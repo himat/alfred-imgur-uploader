@@ -6,5 +6,4 @@ Activate via `imgur` Alfred keyword
 This workflow uploads the most recent clipboard item to imgur and pastes the uploaded image URL into your clipboard. It also opens the uploaded image URL in your browser.
 - Note that if your most recent clipboard item is not an image, then you will be shown an error and nothing will be uploaded.
 
-# Installation
-1. [Download and open .alfredworkflow for a 1-click install](https://github.com/himat/alfred-imgur-uploader/releases).  
+#### Installation: [Download and open .alfredworkflow for a 1-click install](https://github.com/himat/alfred-imgur-uploader/releases).  
