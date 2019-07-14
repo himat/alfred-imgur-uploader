@@ -148,12 +148,11 @@
 				<key>script</key>
 				<string>query=$1
 
-&gt;&amp;2 echo -n $(which pngpaste)
-/usr/local/bin/pngpaste /private/tmp/imgur.png
+./deps/pngpaste /private/tmp/imgur.png
 
 [ $? == 1 ] &amp;&amp; exit 1 # Exit if pngpaste errored
 
-./imguru /private/tmp/imgur.png
+./deps/imguru /private/tmp/imgur.png
 rm /private/tmp/imgur.png</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>

@@ -8,5 +8,3 @@ This workflow uploads the most recent clipboard item to imgur and pastes the upl
 
 # Installation
 1. [Download and open .alfredworkflow for a 1-click install](https://github.com/himat/alfred-imgur-uploader/releases).  
-2. Requires `pngpaste` to get clipboard image
-    - Install via `brew install pngpaste`
